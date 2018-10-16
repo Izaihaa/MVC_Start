@@ -8,10 +8,20 @@ namespace MVC_Start.Controllers
 {
   public class HomeController : Controller
   {
-    public IActionResult Index()
+    public IActionResult Index1()
     {
       return View();
     }
+
+    public IActionResult AdamI()
+        {
+            return View();
+        }
+
+    public IActionResult MichaelK()
+        {
+            return View();
+        }
 
     public IActionResult IndexLayout()
     {
